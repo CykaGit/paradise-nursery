@@ -1,0 +1,58 @@
+.landing {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1470058869958-2a77ade41c02');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.landing::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.landing-content {
+  position: relative;
+  color: white;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.landing-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  color: #55732E;
+  mix-blend-mode: screen;
+  border-radius: .3rem;
+}
+
+.landing-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.get-started-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background: #45a049;
+} 

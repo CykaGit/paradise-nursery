@@ -1,0 +1,1 @@
+export const landingBg = 'https://images.unsplash.com/photo-1470058869958-2a77ade41c02'; 

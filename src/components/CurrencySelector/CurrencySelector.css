@@ -1,0 +1,12 @@
+.currency-selector {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+}
+
+.currency-selector:focus {
+  outline: none;
+  border-color: #2c3e50;
+} 
